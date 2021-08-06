@@ -1192,7 +1192,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f6f5d7;
+  background: #ff3706;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1356,19 +1356,24 @@ pre .javascript .function {
   position: absolute;
   right: 0;
 }
-.footer-inner .copyright {
+.copyright {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-inner {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
   width: 700px;
 }
 @media (min-width: 1200px) {
-  .footer-inner .copyright {
+  .footer-inner {
     width: 800px;
   }
 }
 @media (min-width: 1600px) {
-  .footer-inner .copyright {
+  .footer-inner {
     width: 900px;
   }
 }
